@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black ;
+    height: 50px;
+}
+form{
+    align-items: center;
+    border-style: solid;
+    border-color: gray;
+    width: max-content;
+    background-color:gray ;
+    
+}
+input{
+    height: 40px;
+    width: 500px;
+    align-items: center;
+    border: solid;
+    border-color: white;
+    background-color: goldenrod ;
+    
+    
+}
+a:visited{
+    color:red;
+    font-size: 14px;
+}
+a:active
+{
+    font-size: 10px;
+    color:red;
+}
+a:link{
+    color:white;
+}
+a:hover{
+    border-color: white;
+    border-style:solid;
+    background-color: white;
+    
+}
+body
+{
+    font-size: 20px;
+    background-color:gray;
+}
+.data
+{
+    grid:0;
+}
