@@ -7,6 +7,7 @@
 nav{
     background-color: black ;
     height: 50px;
+    text-align: center;
 }
 form{
     align-items: center;
@@ -14,6 +15,8 @@ form{
     border-color: gray;
     width: max-content;
     background-color:gray ;
+    left: 50%;
+    transform: translateY(50%);
     
 }
 input{
@@ -46,10 +49,15 @@ a:hover{
 }
 body
 {
+    align-content: center;
     font-size: 20px;
     background-color:gray;
 }
 .data
 {
     grid:0;
+}
+.login
+{
+    text-align: right;
 }

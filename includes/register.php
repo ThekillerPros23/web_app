@@ -18,18 +18,22 @@
         </header>
         <section>
             <?php
-                $email = $_POST["email"];
-                $password = $_POST["password"];
-                $connfirmation  = $_POST["confirmation"];
-                if ($password == $connfirmation)
+                function register()
                 {
-                    echo "<a href = '/index.php'>volver</a>";
-                }
-                else
-                {
-                    echo "Su contraseña es incorrecta";
-                }
+                    $email = $_POST["email"];
+                    $password = $_POST["password"];
+                    $connfirmation  = $_POST["confirmation"];
+                    if ($password == $connfirmation)
+                    {
+                        echo "<a href = '/index.php'>volver</a>";
+                    }
+                    else
+                    {
+                        echo "Su contraseña es incorrecta";
+                    }
             ?>          
+                
+                    
         </section>
         <footer>
 
