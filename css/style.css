@@ -15,9 +15,26 @@ form{
     border-color: gray;
     width: max-content;
     background-color:gray ;
+    justify-content: center;
+    align-items:  center;
     left: 50%;
     transform: translateY(50%);
-    
+  }
+h1
+{
+   transform: translateX(40%);
+}
+table
+{
+    height: 300px;
+    font-size: 30;
+    display: flex;
+    position: all;
+    align-items: center;
+    justify-content: center;
+    border:solid;
+    border-color: blue;
+    color:white;
 }
 input{
     height: 40px;
@@ -26,8 +43,11 @@ input{
     border: solid;
     border-color: white;
     background-color: goldenrod ;
-    
-    
+    position: all;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 a:visited{
     color:red;
