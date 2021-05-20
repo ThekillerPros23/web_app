@@ -17,8 +17,9 @@ form{
     background-color:gray ;
     justify-content: center;
     align-items:  center;
-    
-}
+    left: 50%;
+    transform: translateY(50%);
+  }
 h1
 {
    transform: translateX(40%);
