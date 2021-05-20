@@ -20,7 +20,15 @@
             </nav>
         </header>
         <section>
-            
+            <h1>Bienvenidos a arte y vida</h1>
+            <table>
+                <tr>
+                    <td>Falta</td>
+                </tr>
+                <tr>
+                    <td>Nueva data</td>
+                </tr>
+            </table>
         </section>
         <footer>
         </footer>

@@ -19,6 +19,22 @@ form{
    align-items:  center;
     
 }
+h1
+{
+   transform: translateX(40%);
+}
+table
+{
+    height: 300px;
+    font-size: 30;
+    display: flex;
+    position: all;
+    align-items: center;
+    justify-content: center;
+    border:solid;
+    border-color: blue;
+    color:white;
+}
 input{
     height: 40px;
     width: 500px;
