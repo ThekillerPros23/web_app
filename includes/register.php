@@ -8,11 +8,11 @@
         <header>
             <nav>
                 <div>    
-                    <a href="" > Inicio</a>
+                    <a href="/index.html" > Inicio</a>
                     <a href="">Quien somos?</a>
                     <a href=""> Templates</a>
                     <a href="/web/login.html">Login</a>
-                    <a href="">Registro</a>
+                    <a href="/web/register.html">Registro</a>
                 </div>
             </nav>
         </header>
